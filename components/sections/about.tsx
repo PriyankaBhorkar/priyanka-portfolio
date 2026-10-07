@@ -47,19 +47,6 @@ export function About() {
           </p>
         </Reveal>
       </div>
-
-      <Reveal delay={0.05}>
-        <dl className="mt-16 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {stats.map((stat) => (
-            <div key={stat.label} className="flex flex-col-reverse justify-end rounded-2xl border border-line bg-white p-5 text-center sm:p-6">
-              <dt className="mt-1.5 text-sm leading-snug text-muted">{stat.label}</dt>
-              <dd className="font-display text-4xl font-semibold tracking-[-0.02em] text-accent sm:text-[2.75rem]">
-                <Counter value={stat.value} prefix={stat.prefix} suffix={stat.suffix} />
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </Reveal>
     </Section>
   );
 }
