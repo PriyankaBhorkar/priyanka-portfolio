@@ -1,0 +1,729 @@
+{
+  "person": {
+    "name": "Priyanka Nitin Bhorkar",
+    "shortName": "Priyanka",
+    "title": "SAP HANA & BI/BW Developer, M.Sc. Web Engineering student",
+    "headline": "SAP HANA and BI/BW developer, now studying Web Engineering",
+    "intro": "Over four years of building finance data models and BI reporting at Deloitte and Accenture. Now an M.Sc. Web Engineering student at TU Chemnitz, bringing that enterprise data background to web and cloud applications.",
+    "summary": "M.Sc. Web Engineering student at Chemnitz University of Technology with over 4 years of experience as an SAP HANA Developer and SAP BI/BW Consultant. Experienced in implementation, migration, and support projects, with a strong focus on data modelling, BI reporting, and system optimization.",
+    "seeking": "A Werkstudent role where she can apply her enterprise data expertise and her current studies in web engineering to modern web and cloud solutions.",
+    "location": "Chemnitz, Germany",
+    "email": "priyankabhorkar1997@gmail.com",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/priyankabhorkar",
+      "github": "https://github.com/PriyankaBhorkar"
+    },
+    "cv": "/cv/Priyanka-Nitin-Bhorkar-CV.pdf",
+    "photo": "/images/priyanka-bhorkar.jpg"
+  },
+  "about": [
+    "From SAP BW process chains to SAP HANA Calculation Views, I spent over four years as an SAP BI/BW Consultant at Accenture and an SAP HANA Developer at Deloitte. I designed the finance reporting layer and cut report load time (by approx. 50%), and automated 26 month-end activities with Blue Prism RPA (approx. 50 hours saved per month).",
+    "Now pursuing my M.Sc. in Web Engineering at TU Chemnitz, I build with Python, FastAPI and PostgreSQL. I am seeking a Werkstudent role where my background in enterprise data and my studies in web engineering come together in modern web and cloud solutions."
+  ],
+  "stats": [
+    {
+      "value": 4,
+      "prefix": "",
+      "suffix": "+",
+      "label": "years in SAP HANA and BI/BW roles"
+    },
+    {
+      "value": 50,
+      "prefix": "~",
+      "suffix": "%",
+      "label": "shorter load time on finance reports"
+    },
+    {
+      "value": 26,
+      "prefix": "",
+      "suffix": "",
+      "label": "month-end activities automated"
+    },
+    {
+      "value": 50,
+      "prefix": "~",
+      "suffix": " h",
+      "label": "manual effort saved each month"
+    }
+  ],
+  "expertise": [
+    {
+      "icon": "layers",
+      "title": "SAP HANA data modelling",
+      "text": "End-to-end data models and Calculation Views that serve as the final reporting layer for finance."
+    },
+    {
+      "icon": "database",
+      "title": "SAP BW/BI",
+      "text": "DSOs, InfoCubes, MultiProviders, DTPs and process chains, maintained and changed in a live system."
+    },
+    {
+      "icon": "chart",
+      "title": "BI reporting",
+      "text": "BEx Analyzer queries, BOBJ reports and Design Studio dashboards built on HANA views."
+    },
+    {
+      "icon": "gauge",
+      "title": "Performance optimisation",
+      "text": "Pushing logic down to the database layer and restricting data with input parameters to cut report load time."
+    },
+    {
+      "icon": "workflow",
+      "title": "Data loading and ETL",
+      "text": "SLT loads from SAP ECC and flat files, Smart Data Access for external sources, and ETL pipelines into PostgreSQL."
+    },
+    {
+      "icon": "bot",
+      "title": "Process automation",
+      "text": "Blue Prism RPA automations for recurring month-end ticket activities."
+    },
+    {
+      "icon": "lifebuoy",
+      "title": "Production support",
+      "text": "Monitoring daily loads, resolving tickets by severity and delivering long-term fixes through root cause analysis."
+    },
+    {
+      "icon": "code",
+      "title": "Web APIs and dashboards",
+      "text": "Documented FastAPI services and Streamlit dashboards on top of PostgreSQL."
+    }
+  ],
+  "experience": [
+    {
+      "id": "deloitte",
+      "company": "Deloitte Consulting India Pvt. Ltd",
+      "shortCompany": "Deloitte",
+      "title": "Analyst, SAP HANA Developer",
+      "location": "India",
+      "start": "02/2022",
+      "end": "10/2023",
+      "summary": "Designed the SAP HANA data models and Calculation Views behind finance reporting, from data loading to the report itself.",
+      "highlight": "Cut finance report load time by approx. 50%, from about 30 s to about 15 s.",
+      "contributions": [
+        "Designed end-to-end data models and developed Calculation Views in SAP HANA Studio as the final reporting layer for the finance domain.",
+        "Developed table functions in SQLScript to implement complex calculation logic used in Calculation Views.",
+        "Loaded data from SAP ECC and flat files into SAP HANA using SLT, and integrated external data sources using Smart Data Access (SDA).",
+        "Developed complex BOBJ reports and integrated HANA views with SAP BusinessObjects Design Studio.",
+        "Optimized finance Calculation Views by pushing logic down to the database layer and restricting data with input parameters.",
+        "Migrated HANA objects and transported content from development and test to production using delivery units.",
+        "Gathered structured and ad hoc reporting requirements and business rules from finance stakeholders."
+      ],
+      "technologies": [
+        "SAP HANA",
+        "Calculation Views",
+        "SQLScript",
+        "SLT",
+        "Smart Data Access",
+        "SAP BusinessObjects",
+        "Design Studio",
+        "SAP HANA Studio"
+      ]
+    },
+    {
+      "id": "accenture",
+      "company": "Accenture Pvt. Ltd.",
+      "shortCompany": "Accenture",
+      "title": "Application Development Analyst, SAP BI/BW Consultant",
+      "location": "",
+      "start": "09/2019",
+      "end": "02/2022",
+      "summary": "Kept SAP BW reporting reliable through month-end and year-end financial closing, and automated the recurring work around it.",
+      "highlight": "Automated 26 recurring month-end ticket activities with Blue Prism RPA, saving approx. 50 hours of manual effort per month.",
+      "contributions": [
+        "Automated 26 recurring month-end ticket activities using Blue Prism RPA, building one automation per activity.",
+        "Supported month-end and year-end financial closing activities.",
+        "Built BEx Analyzer queries using filters, navigational attributes, variables, and calculated and restricted key figures, enabling drill-down and summarized analysis.",
+        "Monitored BW process chains and daily data loads (PSA to data targets), analyzed recurring InfoPackage failures, and ensured jobs finished within the agreed schedule.",
+        "Resolved customer tickets by severity and delivered long-term fixes through root cause analysis.",
+        "Maintained BW objects (DSOs, InfoCubes, MultiProviders, DTPs, InfoPackages) and handled change requests on data models, process chains and reports.",
+        "Contributed to requirements gathering and mapping of existing processes to SAP BI, and documented all support activities."
+      ],
+      "technologies": [
+        "SAP BW/BI",
+        "BEx Analyzer",
+        "Process Chains",
+        "DSO",
+        "InfoCube",
+        "MultiProvider",
+        "DTP",
+        "Blue Prism RPA"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "finance-reporting-hana",
+      "name": "Finance reporting layer on SAP HANA",
+      "organization": "Deloitte",
+      "category": "enterprise",
+      "role": "Analyst, SAP HANA Developer",
+      "tagline": "Calculation Views as the final reporting layer for finance, with report load time cut by about half.",
+      "technologies": [
+        "SAP HANA",
+        "Calculation Views",
+        "SQLScript",
+        "SLT",
+        "Smart Data Access",
+        "SAP BusinessObjects",
+        "Design Studio"
+      ],
+      "link": "",
+      "detail": {
+        "context": "Finance reporting at Deloitte, built on SAP HANA with data arriving from SAP ECC, flat files and external sources.",
+        "challenge": "Finance reports needed complex calculation logic, and the Calculation Views behind them took about 30 seconds to load.",
+        "role": "Designed the data models end to end and developed the Calculation Views, working from requirements gathered with finance stakeholders.",
+        "approach": "Pushed logic down to the database layer and restricted data with input parameters, so reports read only what they need.",
+        "technical": [
+          "Calculation Views developed in SAP HANA Studio as the final reporting layer",
+          "Table functions in SQLScript for complex calculation logic",
+          "Data loaded from SAP ECC and flat files with SLT, external sources integrated through Smart Data Access",
+          "BOBJ reports, and HANA views integrated with SAP BusinessObjects Design Studio",
+          "HANA objects transported from development and test to production using delivery units"
+        ],
+        "result": "Report load time reduced by approx. 50%, from about 30 s to about 15 s."
+      },
+      "icon": "chart"
+    },
+    {
+      "id": "month-end-automation",
+      "name": "Month-end automation with Blue Prism",
+      "organization": "Accenture",
+      "category": "enterprise",
+      "role": "Application Development Analyst, SAP BI/BW Consultant",
+      "tagline": "26 recurring month-end ticket activities turned into automations, saving about 50 hours a month.",
+      "technologies": [
+        "Blue Prism RPA",
+        "SAP BW/BI"
+      ],
+      "link": "",
+      "detail": {
+        "context": "SAP BI/BW support at Accenture, including month-end and year-end financial closing activities.",
+        "challenge": "26 ticket activities came back every month-end and were handled manually each time.",
+        "role": "Built the automations alongside day-to-day BW support work.",
+        "approach": "One Blue Prism automation per recurring activity.",
+        "technical": [
+          "26 automations built in Blue Prism RPA, one per activity",
+          "Run in the context of month-end closing support for SAP BI/BW"
+        ],
+        "result": "Manual effort reduced by approx. 50 hours per month."
+      },
+      "icon": "bot"
+    },
+    {
+      "id": "german-accident-data-platform",
+      "name": "German Road Accident Data Platform",
+      "organization": "Own project",
+      "category": "web",
+      "role": "Developer",
+      "tagline": "Open government accident data integrated into one PostgreSQL database, served through a documented API and a dashboard.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Streamlit",
+        "Swagger (OpenAPI)"
+      ],
+      "link": "https://github.com/PriyankaBhorkar/German-Accident-Data-Platform",
+      "detail": {
+        "context": "A full-stack platform built on open government data about road accidents in Germany.",
+        "challenge": "The data comes from separate sources (Unfallatlas, regional indicators, AGS/GV-ISys keys) that have to be brought together before they can be compared.",
+        "role": "Built the platform: ETL pipeline, database, API and dashboard.",
+        "approach": "Integrate every source into a single PostgreSQL database through an ETL pipeline, then expose it through an API and a dashboard.",
+        "technical": [
+          "ETL pipeline loading Unfallatlas data, regional indicators and AGS/GV-ISys keys into PostgreSQL",
+          "FastAPI service documented with Swagger/OpenAPI, with filtering and cross-source statistics such as fatal-accident and bicycle-risk rankings by district",
+          "Streamlit dashboard with 5 views, including regional accident rates and an accident explorer",
+          "Data-licence metadata (DL-DE-BY-2.0) returned with API responses"
+        ],
+        "result": "A working platform with a documented API and a five-view dashboard over one integrated database."
+      },
+      "icon": "map"
+    },
+    {
+      "id": "attribute-naming-convention-analyzer",
+      "name": "Attribute Naming Convention Analyzer",
+      "organization": "Own project",
+      "category": "web",
+      "role": "Developer",
+      "tagline": "A data quality tool that checks how consistently the columns of a dataset are named.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Altair",
+        "ReportLab"
+      ],
+      "link": "https://github.com/PriyankaBhorkar/Attribute_Naming_Convention_Analyzer",
+      "detail": {
+        "context": "A data quality tool for CSV and JSON datasets.",
+        "challenge": "Datasets mix naming styles and contain ambiguous attribute names, which is hard to judge by eye.",
+        "role": "Built the tool: analysis logic, dashboard and report export.",
+        "approach": "Classify every column name by style, then measure how consistent the dataset is as a whole.",
+        "technical": [
+          "Detects 9 naming styles, including snake_case, camelCase and PascalCase",
+          "Flags ambiguous attributes",
+          "Calculates the dominant style and a consistency percentage",
+          "Interactive Streamlit dashboard with KPI cards and charts",
+          "PDF report export"
+        ],
+        "result": "A working tool that reports a dataset's dominant naming style and consistency percentage, with a PDF report to share."
+      },
+      "icon": "scan"
+    }
+  ],
+  "skills": [
+    {
+      "category": "SAP and data modelling",
+      "items": [
+        "SAP HANA",
+        "Calculation Views",
+        "SLT",
+        "Smart Data Access (SDA)",
+        "Analytic Privileges",
+        "Table Functions",
+        "Attribute Views",
+        "Analytic Views",
+        "Calculated and restricted columns",
+        "SAP BW/BI",
+        "DSO",
+        "InfoCube",
+        "MultiProvider",
+        "DTP",
+        "Process Chains"
+      ],
+      "notes": [
+        {
+          "name": "SAP HANA",
+          "text": "Used to design end-to-end data models and Calculation Views as the final reporting layer for finance."
+        },
+        {
+          "name": "SAP BW/BI",
+          "text": "Used to maintain data models, monitor process chains and daily loads, and handle change requests."
+        }
+      ]
+    },
+    {
+      "category": "Reporting and tools",
+      "items": [
+        "SAP BusinessObjects (BOBJ)",
+        "Web Intelligence",
+        "Design Studio",
+        "SAP Analysis for Office",
+        "BEx Analyzer",
+        "Power BI",
+        "SAP HANA Studio",
+        "Blue Prism RPA",
+        "ServiceNow",
+        "GitHub"
+      ],
+      "notes": [
+        {
+          "name": "BEx Analyzer",
+          "text": "Used to build queries with variables and calculated and restricted key figures for drill-down analysis."
+        },
+        {
+          "name": "Blue Prism RPA",
+          "text": "Used to automate 26 recurring month-end ticket activities."
+        }
+      ]
+    },
+    {
+      "category": "Data and analytics",
+      "items": [
+        "ETL pipelines",
+        "Data modelling",
+        "BI reporting",
+        "Data quality analysis"
+      ],
+      "notes": []
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "SAP HANA",
+        "PostgreSQL"
+      ],
+      "notes": [
+        {
+          "name": "PostgreSQL",
+          "text": "Used as the single integrated database of the German Road Accident Data Platform."
+        }
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "SQL",
+        "Python",
+        "Java",
+        "JavaScript",
+        "C++"
+      ],
+      "notes": [
+        {
+          "name": "SQL",
+          "text": "Used in SQLScript table functions for calculation logic in SAP HANA."
+        }
+      ]
+    },
+    {
+      "category": "Frameworks and libraries",
+      "items": [
+        "FastAPI",
+        "Streamlit",
+        "SQLAlchemy",
+        "Swagger (OpenAPI)"
+      ],
+      "notes": [
+        {
+          "name": "FastAPI",
+          "text": "Used to build a documented API with filtering and cross-source statistics."
+        },
+        {
+          "name": "Streamlit",
+          "text": "Used for interactive dashboards in both web projects."
+        }
+      ]
+    }
+  ],
+  "journey": [
+    {
+      "id": "be",
+      "kind": "education",
+      "period": "08/2016 – 03/2019",
+      "year": "2016",
+      "title": "B.E. in Computer Engineering",
+      "place": "NBN Sinhgad School of Engineering",
+      "text": "Foundations in data structures and algorithms, database management systems, operating systems, software engineering and web technologies.",
+      "section": "education"
+    },
+    {
+      "id": "accenture",
+      "kind": "work",
+      "period": "09/2019 – 02/2022",
+      "year": "2019",
+      "title": "SAP BI/BW Consultant",
+      "place": "Accenture",
+      "text": "BW support through month-end and year-end close, BEx reporting, and 26 month-end activities automated with Blue Prism RPA.",
+      "section": "experience"
+    },
+    {
+      "id": "deloitte",
+      "kind": "work",
+      "period": "02/2022 – 10/2023",
+      "year": "2022",
+      "title": "SAP HANA Developer",
+      "place": "Deloitte",
+      "text": "End-to-end HANA data models and Calculation Views for finance, with report load time reduced by approx. 50%.",
+      "section": "experience"
+    },
+    {
+      "id": "msc",
+      "kind": "education",
+      "period": "10/2025 – today",
+      "year": "2025",
+      "title": "M.Sc. in Web Engineering",
+      "place": "Technische Universität Chemnitz",
+      "text": "Databases and web technology, cloud and web applications, current trends in web engineering, and advanced data management.",
+      "section": "education"
+    },
+    {
+      "id": "next",
+      "kind": "next",
+      "period": "Next",
+      "year": "Next",
+      "title": "Werkstudent role",
+      "place": "Germany",
+      "text": "Looking to apply enterprise data expertise and web engineering studies to modern web and cloud solutions.",
+      "section": "contact"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science (M.Sc.) in Web Engineering",
+      "school": "Technische Universität Chemnitz",
+      "location": "Chemnitz, Germany",
+      "period": "10/2025 – current",
+      "courses": [
+        "Databases and Web Technology",
+        "Cloud and Web Applications",
+        "Current Trends in Web Engineering",
+        "Advanced Data Management"
+      ]
+    },
+    {
+      "degree": "Bachelor of Engineering (B.E.) in Computer Engineering",
+      "school": "NBN Sinhgad School of Engineering",
+      "location": "",
+      "period": "08/2016 – 03/2019",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Software Engineering",
+        "Web Technologies"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Azure AZ-900 Fundamentals",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "Automation Prime",
+      "issuer": "Blue Prism"
+    },
+    {
+      "name": "Japanese-Language Proficiency Test (JLPT)",
+      "issuer": "Language certification"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Spot Award",
+      "text": "For outstanding contribution to project delivery."
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "C2"
+    },
+    {
+      "name": "German",
+      "level": "B1"
+    },
+    {
+      "name": "Japanese",
+      "level": "N4"
+    }
+  ],
+  "personal": {
+    "greeting": "Hello, I'm",
+    "statements": [
+      "I love travelling.",
+      "I'm a fun, easy-going person.",
+      "I make enterprise data make sense.",
+      "Now I'm building for the web."
+    ],
+    "note": "Priyanka loves travelling and describes herself as a fun, easy-going person. Countries she has travelled to: France, Germany, Austria, Switzerland, Czech Republic, Hungary, Finland, Estonia."
+  },
+  "boardingPass": {
+    "from": {
+      "code": "SAP",
+      "label": "Enterprise data"
+    },
+    "to": {
+      "code": "WEB",
+      "label": "Web engineering"
+    },
+    "fields": [
+      {
+        "label": "Passenger",
+        "value": "Priyanka Nitin Bhorkar"
+      },
+      {
+        "label": "Based in",
+        "value": "Chemnitz, Germany"
+      },
+      {
+        "label": "Stopovers",
+        "value": "Accenture, Deloitte"
+      },
+      {
+        "label": "Gate",
+        "value": "TU Chemnitz"
+      },
+      {
+        "label": "Experience",
+        "value": "4+ years"
+      },
+      {
+        "label": "Next stop",
+        "value": "Werkstudent role"
+      }
+    ],
+    "luggage": "SAP HANA, SQL, Python, FastAPI"
+  },
+  "aboutRich": [
+    [
+      {
+        "text": "From "
+      },
+      {
+        "text": "SAP BW process chains",
+        "mark": "tech"
+      },
+      {
+        "text": " to "
+      },
+      {
+        "text": "SAP HANA Calculation Views",
+        "mark": "tech"
+      },
+      {
+        "text": ", I spent over four years as an "
+      },
+      {
+        "text": "SAP BI/BW Consultant",
+        "mark": "em"
+      },
+      {
+        "text": " at Accenture and an "
+      },
+      {
+        "text": "SAP HANA Developer",
+        "mark": "em"
+      },
+      {
+        "text": " at Deloitte. I designed the finance reporting layer and cut report load time "
+      },
+      {
+        "text": "(by approx. 50%)",
+        "mark": "metric"
+      },
+      {
+        "text": ", and automated 26 month-end activities with Blue Prism RPA "
+      },
+      {
+        "text": "(approx. 50 hours saved per month)",
+        "mark": "metric"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Now pursuing my M.Sc. in Web Engineering at TU Chemnitz, I build with "
+      },
+      {
+        "text": "Python, FastAPI and PostgreSQL",
+        "mark": "tech"
+      },
+      {
+        "text": ". I am seeking a Werkstudent role where my background in "
+      },
+      {
+        "text": "enterprise data",
+        "mark": "em"
+      },
+      {
+        "text": " and my studies in "
+      },
+      {
+        "text": "web engineering",
+        "mark": "em"
+      },
+      {
+        "text": " come together in modern web and cloud solutions."
+      }
+    ]
+  ],
+  "aboutHighlight": "Spot Award for outstanding contribution to project delivery.",
+  "skillCards": [
+    {
+      "icon": "layers",
+      "name": "SAP HANA",
+      "text": "Data models and Calculation Views for finance reporting"
+    },
+    {
+      "icon": "database",
+      "name": "SAP BW/BI",
+      "text": "DSOs, InfoCubes, process chains and daily loads"
+    },
+    {
+      "icon": "code",
+      "name": "SQL and SQLScript",
+      "text": "Table functions for complex calculation logic"
+    },
+    {
+      "icon": "chart",
+      "name": "SAP BusinessObjects",
+      "text": "BOBJ reports and Design Studio dashboards"
+    },
+    {
+      "icon": "table",
+      "name": "BEx Analyzer",
+      "text": "Queries with variables and key figures"
+    },
+    {
+      "icon": "bot",
+      "name": "Blue Prism RPA",
+      "text": "26 month-end activities automated"
+    },
+    {
+      "icon": "workflow",
+      "name": "Data modelling",
+      "text": "End-to-end models, from source to report"
+    },
+    {
+      "icon": "shuffle",
+      "name": "ETL and data loading",
+      "text": "SLT, Smart Data Access and ETL pipelines"
+    },
+    {
+      "icon": "terminal",
+      "name": "Python",
+      "text": "ETL pipelines and data quality tools"
+    },
+    {
+      "icon": "server",
+      "name": "FastAPI",
+      "text": "Documented APIs with Swagger/OpenAPI"
+    },
+    {
+      "icon": "harddrive",
+      "name": "PostgreSQL",
+      "text": "One integrated database for open data"
+    },
+    {
+      "icon": "dashboard",
+      "name": "Streamlit",
+      "text": "Interactive dashboards and KPI views"
+    }
+  ],
+  "travel": {
+    "label": "Already landed in",
+    "countries": [
+      {
+        "name": "France",
+        "code": "FR"
+      },
+      {
+        "name": "Germany",
+        "code": "DE"
+      },
+      {
+        "name": "Austria",
+        "code": "AT"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CH"
+      },
+      {
+        "name": "Czech Republic",
+        "code": "CZ"
+      },
+      {
+        "name": "Hungary",
+        "code": "HU"
+      },
+      {
+        "name": "Finland",
+        "code": "FI"
+      },
+      {
+        "name": "Estonia",
+        "code": "EE"
+      }
+    ]
+  }
+}
