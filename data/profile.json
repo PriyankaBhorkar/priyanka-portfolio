@@ -152,64 +152,6 @@
   ],
   "projects": [
     {
-      "id": "finance-reporting-hana",
-      "name": "Finance reporting layer on SAP HANA",
-      "organization": "Deloitte",
-      "category": "enterprise",
-      "role": "Analyst, SAP HANA Developer",
-      "tagline": "Calculation Views as the final reporting layer for finance, with report load time cut by about half.",
-      "technologies": [
-        "SAP HANA",
-        "Calculation Views",
-        "SQLScript",
-        "SLT",
-        "Smart Data Access",
-        "SAP BusinessObjects",
-        "Design Studio"
-      ],
-      "link": "",
-      "detail": {
-        "context": "Finance reporting at Deloitte, built on SAP HANA with data arriving from SAP ECC, flat files and external sources.",
-        "challenge": "Finance reports needed complex calculation logic, and the Calculation Views behind them took about 30 seconds to load.",
-        "role": "Designed the data models end to end and developed the Calculation Views, working from requirements gathered with finance stakeholders.",
-        "approach": "Pushed logic down to the database layer and restricted data with input parameters, so reports read only what they need.",
-        "technical": [
-          "Calculation Views developed in SAP HANA Studio as the final reporting layer",
-          "Table functions in SQLScript for complex calculation logic",
-          "Data loaded from SAP ECC and flat files with SLT, external sources integrated through Smart Data Access",
-          "BOBJ reports, and HANA views integrated with SAP BusinessObjects Design Studio",
-          "HANA objects transported from development and test to production using delivery units"
-        ],
-        "result": "Report load time reduced by approx. 50%, from about 30 s to about 15 s."
-      },
-      "icon": "chart"
-    },
-    {
-      "id": "month-end-automation",
-      "name": "Month-end automation with Blue Prism",
-      "organization": "Accenture",
-      "category": "enterprise",
-      "role": "Application Development Analyst, SAP BI/BW Consultant",
-      "tagline": "26 recurring month-end ticket activities turned into automations, saving about 50 hours a month.",
-      "technologies": [
-        "Blue Prism RPA",
-        "SAP BW/BI"
-      ],
-      "link": "",
-      "detail": {
-        "context": "SAP BI/BW support at Accenture, including month-end and year-end financial closing activities.",
-        "challenge": "26 ticket activities came back every month-end and were handled manually each time.",
-        "role": "Built the automations alongside day-to-day BW support work.",
-        "approach": "One Blue Prism automation per recurring activity.",
-        "technical": [
-          "26 automations built in Blue Prism RPA, one per activity",
-          "Run in the context of month-end closing support for SAP BI/BW"
-        ],
-        "result": "Manual effort reduced by approx. 50 hours per month."
-      },
-      "icon": "bot"
-    },
-    {
       "id": "german-accident-data-platform",
       "name": "German Road Accident Data Platform",
       "organization": "Own project",
