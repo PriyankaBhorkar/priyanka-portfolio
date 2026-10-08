@@ -161,23 +161,6 @@ export function Projects() {
       lead="Two assignments from consulting and two platforms I built myself. Open any of them for the full story."
     >
       <Reveal>
-        <div role="group" aria-label="Filter projects" className="flex flex-wrap justify-center gap-2">
-          {projectFilters.map((f) => (
-            <button
-              key={f.id}
-              type="button"
-              aria-pressed={filter === f.id}
-              onClick={() => setFilter(f.id)}
-              className={cn(
-                "rounded-full border px-4 py-2 text-[0.93rem] font-medium transition-colors",
-                filter === f.id ? "border-accent bg-accent text-white" : "border-line bg-white text-muted hover:border-accent hover:text-accent-deep",
-              )}
-            >
-              {f.label}
-            </button>
-          ))}
-        </div>
-
         <ul className="mt-8 grid gap-6 md:grid-cols-2">
           <AnimatePresence mode="popLayout" initial={false}>
             {visible.map((project, i) => {
