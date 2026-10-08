@@ -159,7 +159,7 @@ export function Projects() {
       icon={FolderHeart}
       title="Featured projects"
       lead="Two assignments from consulting and two platforms I built myself. Open any of them for the full story."
-    >
+    > 
       <Reveal>
         <ul className="mt-8 grid gap-6 md:grid-cols-2">
           <AnimatePresence mode="popLayout" initial={false}>
