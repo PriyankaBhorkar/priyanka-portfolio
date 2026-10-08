@@ -170,33 +170,7 @@ export function Hero() {
           <motion.div {...rise(0.28)} className="mt-9 flex flex-wrap gap-3">
             <a href="#about" className={buttonClass("primary")}>Get to know me</a>
             <a href="#projects" className={buttonClass("outline")}>Explore my work</a>
-            <a href={person.cv} download className={buttonClass("outline")}>
-              <Download className="size-4" aria-hidden="true" />
-              Download CV
-            </a>
-            <button type="button" onClick={openChat} className={buttonClass("outline", "border-lilac/30 bg-lilac-soft text-lilac hover:border-lilac hover:text-lilac")}>
-              <MessageCircle className="size-4" aria-hidden="true" />
-              Ask Priyanka
-            </button>
           </motion.div>
-
-          <motion.ul {...rise(0.36)} className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-3 text-[0.95rem] text-muted">
-            <li>
-              <a href={person.links.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
-                <LinkedInIcon className="size-4" /> LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href={person.links.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
-                <GitHubIcon className="size-4" /> GitHub
-              </a>
-            </li>
-            <li>
-              <a href="#certifications" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
-                <BadgeCheck className="size-4" aria-hidden="true" /> Certifications
-              </a>
-            </li>
-          </motion.ul>
         </div>
 
         <motion.div
