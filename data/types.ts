@@ -8,7 +8,7 @@ export interface Role {
 export type ProjectCategory = "enterprise" | "web";
 export interface Project {
   id: string; name: string; organization: string; category: ProjectCategory; role: string;
-  tagline: string; technologies: string[]; link: string; icon: string;
+  tagline: string; description: string; technologies: string[]; link: string; icon: string;
   detail: { context: string; challenge: string; role: string; approach: string; technical: string[]; result: string };
 }
 export interface SkillGroup { category: string; items: string[]; notes: { name: string; text: string }[] }
