@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { ExternalLink, FolderHeart, X } from "lucide-react";
 import { projects } from "@/data/projects";
@@ -160,11 +161,23 @@ export function Projects() {
                 aria-haspopup="dialog"
                 className="group block w-full bg-white p-4 pb-6 text-left shadow-panel sm:p-5 sm:pb-7"
               >
-                <span className={cn("grid aspect-[4/3] place-items-center bg-gradient-to-br", tiles[i % tiles.length])}>
-                  <span className="grid size-24 place-items-center rounded-[2rem] bg-white/85 shadow-lift transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110">
-                    {Icon && <Icon className="size-11" aria-hidden="true" />}
+                {project.image ? (
+                  <span className="relative block aspect-[16/10] overflow-hidden bg-surface">
+                    <Image
+                      src={project.image}
+                      alt={`Screenshot of ${project.name}`}
+                      fill
+                      sizes="(min-width: 768px) 420px, 90vw"
+                      className="object-cover object-left-top transition-transform duration-500 group-hover:scale-105"
+                    />
                   </span>
-                </span>
+                ) : (
+                  <span className={cn("grid aspect-[4/3] place-items-center bg-gradient-to-br", tiles[i % tiles.length])}>
+                    <span className="grid size-24 place-items-center rounded-[2rem] bg-white/85 shadow-lift transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110">
+                      {Icon && <Icon className="size-11" aria-hidden="true" />}
+                    </span>
+                  </span>
+                )}
                 <span className="mt-4 block font-hand text-[2rem] leading-tight text-ink">{project.name}</span>
                 <span className="mt-1 block text-[0.97rem] text-muted">{project.tagline}</span>
                 <span className="mt-4 flex flex-wrap gap-1.5">
