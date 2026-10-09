@@ -159,6 +159,7 @@
       "role": "Developer",
       "tagline": "Open government accident data integrated into one PostgreSQL database, served through a documented API and a dashboard.",
       "description": "Built a full-stack platform that integrates open government data (Unfallatlas, regional indicators, AGS/GV-ISys keys) into a single PostgreSQL database through an ETL pipeline. A documented FastAPI service (Swagger/OpenAPI) offers filtering and cross-source statistics, such as fatal-accident and bicycle-risk rankings by district, and returns data-licence metadata (DL-DE-BY-2.0) with its responses. A Streamlit dashboard with 5 views, including regional accident rates and an accident explorer, makes the data easy to explore.",
+      "image": "/images/projects/accident-platform.png",
       "technologies": [
         "Python",
         "FastAPI",
@@ -191,6 +192,7 @@
       "role": "Developer",
       "tagline": "A data quality tool that checks how consistently the columns of a dataset are named.",
       "description": "Built a data quality tool that analyses column naming in CSV and JSON datasets. It detects 9 naming styles, including snake_case, camelCase and PascalCase, and flags ambiguous attributes. It calculates the dominant style and a consistency percentage, shows them on an interactive dashboard with KPI cards and charts, and exports the results as a PDF report.",
+      "image": "/images/projects/naming-analyzer.png",
       "technologies": [
         "Python",
         "Streamlit",
